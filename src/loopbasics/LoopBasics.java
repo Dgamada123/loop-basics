@@ -178,7 +178,7 @@ public class LoopBasics {
                 break;
             }
         }
-
+  
         // There is also a Java `continue` statement that means “immediately skip to the next
         // iteration of the loop.” It is less commonly useful than `break`, but is still useful:
 
@@ -252,11 +252,11 @@ public class LoopBasics {
         
         // Here is that counting while loop again:
 
-        // int n = 0;
-        // while (n < 100) {
-        //     System.out.println(n);
-        //     n++;
-        // }
+        int n = 0;
+        while (n < 100) {
+            System.out.println(n);
+            n++;
+        }
 
         // And here it is as a C-style for loop:
 
